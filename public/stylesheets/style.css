@@ -4,7 +4,8 @@ body {
 
 .action {
   color: white;
-  background: #382F2F border-radius: 0.25rem;
+  background: #382F2F;
+  border-radius: 0.25rem;
   display: inline-block;
   font-size: 1rem;
   padding: 0.25rem 1rem;
@@ -21,26 +22,33 @@ header {
   flex-flow: row nowrap;
 }
 
-
+.nav-container {
+  display: flex;
+  flex-flow: row nowrap;
+  column-gap: 1rem;
+}
 
 .home,
 .about,
 .portfolio,
 .contact {
   border: 0px;
-  width: 150px;
-  height: 50px;
+  width: 100px;
+  height: 40px;
   background-color: lightgray;
   border-radius: 5px;
   text-decoration: none;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
   color: black;
 }
-
-
 
 .title-container {
   margin-top: 2rem;
   font-weight: 800;
+}
+
+a:hover {
+  background-color: #382F2F;
+  color: white;
 }
