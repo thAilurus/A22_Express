@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css" />
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+
+  <title>A22_Express</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a class="home" href="/" role="button">回到首頁</a>
+      <div class="nav-container">
+        <a href="/about" class="about" role="button">About</a>
+        <a href="/portfolio" class="portfolio" role="button">Portfolio</a>
+        <a href="/contact" class="contact" role="button">Contact</a>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <!--局部樣板渲染-->
+  {{{body}}}
+
+
+  <script src="/javascirpts/popper.js"></script>
+  <script src="/javascirpts/bootstrap.js"></script>
+
+</body>
+
+</html>

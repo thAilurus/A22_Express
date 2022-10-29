@@ -1,0 +1,46 @@
+body {
+  margin: 0 1rem;
+}
+
+.action {
+  color: white;
+  background: #382F2F border-radius: 0.25rem;
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.25rem 1rem;
+  transition: all 0.1s linear;
+}
+
+header {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+.home,
+.about,
+.portfolio,
+.contact {
+  border: 0px;
+  width: 150px;
+  height: 50px;
+  background-color: lightgray;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+}
+
+
+
+.title-container {
+  margin-top: 2rem;
+  font-weight: 800;
+}
